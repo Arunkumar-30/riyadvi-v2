@@ -4,32 +4,32 @@ const AboutComponent = () => {
   return (
     <>
       <div className="my-10 lg:ml-20">
-        <div className="about-aryu-group flex w-[80%] justify-between md:py-16 mx-auto max-lg:w-[80%] max-lg:flex-col max-lg:gap-10">
+        <div className="about-riyadvi-group flex w-[80%] justify-between md:py-16 mx-auto max-lg:w-[80%] max-lg:flex-col max-lg:gap-10">
           <div className="content lg:w-[60%] flex flex-col justify-between">
             <div>
-              <h2 className=" text-[12px] font-bold uppercase text-gray-500 inline-flex items-center  p-2 ">
-                About Aryu Group of Companies
+              <h2 className="text-[12px] font-bold uppercase text-gray-500 inline-flex items-center p-2">
+                About Riyadvi Software Technologies
               </h2>
 
               <h3 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold mt-2 md:leading-12">
-                We help you enjoy the progress, not just the success.
+                We empower your journey through digital transformation.
               </h3>
 
               <div className="text-[#484A61] max-md:text-[14px] text-[18px] mt-6">
-                With us, you can have steady, predictable and long-lasting
-                success. In the meantime you will enjoy the process of growing
-                visibly.
+                At Riyadvi Software Technologies, we ensure predictable,
+                scalable, and sustainable growth for your business—making the
+                journey as rewarding as the destination.
                 <ul className="list-disc ml-10 mt-4 flex flex-col gap-2">
-                  <li>Real-time results across 100+ brands</li>
-                  <li>Deep understanding of your business &amp; audience</li>
-                  <li>Strong focus on retention</li>
+                  <li>Performance-driven solutions for 100+ global clients</li>
+                  <li>Customized strategies tailored to your industry</li>
+                  <li>Focus on innovation and long-term retention</li>
                 </ul>
               </div>
             </div>
 
             <div className="max-md:mt-5">
               <a
-                className="group duration-500 hover:text-[#fff] p-2 hover:bg-[#5891E0] w-[160px] flex items-center gap-4 text-[#161C52] text-[14px] border-none"
+                className="group duration-500 hover:text-[#fff] p-2 hover:bg-[#5891E0] w-[180px] flex items-center gap-4 text-[#161C52] text-[14px] border-none"
                 href="/about-us"
                 data-discover="true"
               >
@@ -46,7 +46,7 @@ const AboutComponent = () => {
                   <path fill="none" d="M0 0h24v24H0z"></path>
                   <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
                 </svg>
-                ABOUT ARYU
+                ABOUT RIYADVI
               </a>
             </div>
           </div>
@@ -57,29 +57,27 @@ const AboutComponent = () => {
                 <span className="text-[32px] md:text-[54px] text-[#5790E1]">
                   90%
                 </span>
-                <p className="text-[14px] font-bold">Returning Client Rate</p>
+                <p className="text-[14px] font-bold">Client Retention Rate</p>
               </div>
               <div>
                 <span className="text-[32px] md:text-[54px] text-[#5790E1]">
                   99%
                 </span>
-                <p className="text-[14px] font-bold">Project Success Rate</p>
+                <p className="text-[14px] font-bold">
+                  Project Delivery Success
+                </p>
               </div>
               <div>
                 <span className="text-[32px] md:text-[54px] text-[#5790E1]">
                   95%
                 </span>
-                <p className="text-[14px] font-bold">
-                  Employee Fulfillment Rate
-                </p>
+                <p className="text-[14px] font-bold">Team Satisfaction Score</p>
               </div>
               <div>
                 <span className="text-[32px] md:text-[54px] text-[#5790E1]">
                   20+
                 </span>
-                <p className="text-[14px] font-bold">
-                  Clients Across the World
-                </p>
+                <p className="text-[14px] font-bold">Global Clients Served</p>
               </div>
             </div>
           </div>

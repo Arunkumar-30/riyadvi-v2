@@ -12,10 +12,10 @@ const FooterComponent = () => {
               {/* <img className="w-44 md:w-44" alt="Aryu Enterprises Logo" loading="lazy" src="/assets/AryuEnterprises-NalIqy2K.svg"> */}
             </Link>
             <p className="mt-4 text-[16px]">
-              Aryu Enterprises, a leading digital transformation company in
-              India, provides 360 digital solutions to help businesses
-              streamline operations, enhance scalability, and drive long-term
-              success.
+              Riyadvi Software Technologies, a leading digital transformation
+              company in India, provides 360° digital solutions to help
+              businesses streamline operations, enhance scalability, and drive
+              long-term success.
             </p>
             <ul className="text-[#292929] flex gap-4 pt-4 pb-4">
               <li className="p-2 text-[18px]">
@@ -62,17 +62,12 @@ const FooterComponent = () => {
             <ul className="text-[16px] text-[#292929]">
               <li className="my-4">
                 <Link href="https://aryutechnologies.com/" target="_blank">
-                  Aryu Technologies
+                  RiyaDvi Software Technologies
                 </Link>
               </li>
               <li className="my-4">
                 <Link href="https://aryu.agency/" target="_blank">
-                  Aryu Agency
-                </Link>
-              </li>
-              <li className="my-4">
-                <Link href="https://aryuacademy.com/" target="_blank">
-                  Aryu Academy
+                  Riyadvi Agency
                 </Link>
               </li>
             </ul>
@@ -137,7 +132,7 @@ const FooterComponent = () => {
                   <span className="bg-white/20 backdrop-blur-lg border-white/20 rounded-full p-2">
                     <i className="fas fa-envelope"></i>
                   </span>
-                  yuvaraj@aryuenterprises.com
+                  info@riyadvisoftwaretechnologies.com
                 </Link>
               </li>
               <h4 className="font-semibold mt-2 mb-1">
@@ -162,7 +157,7 @@ const FooterComponent = () => {
                   <span className="bg-white/20 backdrop-blur-lg border-white/20 rounded-full p-2">
                     <i className="fas fa-envelope"></i>
                   </span>
-                  hr@aryuenterprises.com
+                  hr@riyadvisoftwaretechnologies.com
                 </Link>
               </li>
             </ul>

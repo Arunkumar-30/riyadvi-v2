@@ -23,7 +23,7 @@ export default function Home() {
         <div
           className="bg-[#fff] bg-cover bg-center bg-no-repeat text-white py-16 px-6"
           style={{
-            backgroundImage: `url('/home/con.webp')`,
+            backgroundImage: `url('/home/banner-2.jpg')`,
           }}
         >
           <div className="flex flex-col items-center text-center">

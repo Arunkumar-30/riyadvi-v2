@@ -20,18 +20,18 @@ const WhyChooseUsComponent = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 flex-shrink-0">
                   <img
-                    alt="user"
+                    alt="expert-team"
                     className="h-full w-full"
-                    src="/assets/user-B_n-Qfpd.gif"
+                    src="/gif/gif-1.gif"
                   />
                 </div>
                 <div className="flex-1">
                   <h2 className="text-lg lg:text-xl xl:text-3xl font-[700] pb-2">
-                    Expert Team
+                    Skilled IT Professionals
                   </h2>
                   <p className="text-[#585858] text-md xl:text-lg mt-5 font-[500]">
-                    A skilled team, ready to design and build exceptional
-                    software solutions.
+                    Our experienced developers, designers, and strategists bring
+                    your software vision to life.
                   </p>
                 </div>
               </div>
@@ -43,17 +43,18 @@ const WhyChooseUsComponent = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 flex-shrink-0">
                   <img
-                    alt="diversity"
+                    alt="flexibility"
                     className="h-full w-full"
-                    src="/assets/diversity-C5O51ouZ.gif"
+                    src="/gif/gif-2.gif"
                   />
                 </div>
                 <div className="flex-1">
                   <h2 className="text-lg lg:text-xl xl:text-3xl font-[700] pb-2">
-                    Flexible Solutions
+                    Scalable Engagement
                   </h2>
                   <p className="text-[#585858] text-md xl:text-lg mt-5 font-[500]">
-                    We adapt if you need one developer or a full team.
+                    Whether you need a single engineer or a full team, we scale
+                    based on your project’s needs.
                   </p>
                 </div>
               </div>
@@ -65,18 +66,18 @@ const WhyChooseUsComponent = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 flex-shrink-0">
                   <img
-                    alt="hourglass"
+                    alt="timely-delivery"
                     className="h-full w-full"
-                    src="/assets/hourglass-DM9x-Zja.gif"
+                    src="/gif/gif-3.gif"
                   />
                 </div>
                 <div className="flex-1">
                   <h2 className="text-lg lg:text-xl xl:text-3xl font-[700] pb-2">
-                    The Right Time
+                    Timely Project Launch
                   </h2>
                   <p className="text-[#585858] text-md xl:text-lg mt-5 font-[500]">
-                    Teams are ready to start anytime and grow with your business
-                    needs.
+                    Our teams are deployment-ready and ensure timely delivery
+                    without compromising quality.
                   </p>
                 </div>
               </div>
@@ -88,18 +89,18 @@ const WhyChooseUsComponent = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 flex-shrink-0">
                   <img
-                    alt="earth"
+                    alt="global-delivery"
                     className="h-full w-full"
-                    src="/assets/earth-DCxRidTi.gif"
+                    src="/gif/gif-4.gif"
                   />
                 </div>
                 <div className="flex-1">
                   <h2 className="text-lg lg:text-xl xl:text-3xl font-[700] pb-2">
-                    The Right Place
+                    Global Collaboration
                   </h2>
                   <p className="text-[#585858] text-md xl:text-lg mt-5 font-[500]">
-                    Skilled experts are available online, ensuring smooth and
-                    easy collaboration.
+                    Work seamlessly with our distributed teams, ensuring agile,
+                    borderless development support.
                   </p>
                 </div>
               </div>
