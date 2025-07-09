@@ -26,14 +26,14 @@ const About = () => {
               <br />
               <span>
                 His journey, driven by a desire for meaningful change, inspired
-                the "Client First" mantra—ensuring innovation, branding
-                excellence, and genuine client partnerships.
+                the &quot;Client First&quot; mantra—ensuring innovation,
+                branding excellence, and genuine client partnerships.
               </span>
               <br />
               <span>
                 His journey, driven by a desire for meaningful change, inspired
-                the "Client First" mantra—ensuring innovation, branding
-                excellence, and genuine client partnerships.
+                the &quot;Client First&quot; mantra—ensuring innovation,
+                branding excellence, and genuine client partnerships.
               </span>
             </p>
           </div>
@@ -73,8 +73,8 @@ const About = () => {
               <br />
               <span>
                 His journey, driven by a desire for meaningful change, inspired
-                the "Client First" mantra—ensuring innovation, branding
-                excellence, and genuine client partnerships.
+                the &quot;Client First&quot; mantra—ensuring innovation,
+                branding excellence, and genuine client partnerships.
               </span>
             </p>
           </div>
