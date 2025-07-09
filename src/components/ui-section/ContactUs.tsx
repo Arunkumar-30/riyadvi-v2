@@ -11,6 +11,7 @@ export default function ContactSection() {
     service: "",
     message: "",
   });
+  console.log(formData, setFormData);
 
   return (
     <div>
