@@ -703,8 +703,11 @@ export default async function ServiceFunction({ params }: PageProps) {
 
             <div className="flex justify-center lg:mt-10">
               <div className="w-full lg:w-[80%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-3">
-                {data?.offering?.map((data1) => (
-                  <div className="group bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-1">
+                {data?.offering?.map((data1, idx) => (
+                  <div
+                    key={idx}
+                    className="group bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-1"
+                  >
                     <h2 className="text-xl xl:text-2xl font-bold text-black">
                       {data1.title}
                     </h2>
@@ -729,8 +732,11 @@ export default async function ServiceFunction({ params }: PageProps) {
 
             <div className="flex justify-center w-full p-2">
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 w-full lg:w-[80%] mt-5 lg:mt-10 rounded-xl border overflow-hidden">
-                {data?.benifits?.map((data1) => (
-                  <div className="w-full bg-white p-6 transition border-l-2 border">
+                {data?.benifits?.map((data1, idx) => (
+                  <div
+                    key={idx}
+                    className="w-full bg-white p-6 transition border-l-2 border"
+                  >
                     <div className="flex justify-center">
                       <div className="w-16 h-16 flex-shrink-0">
                         <img
@@ -764,8 +770,11 @@ export default async function ServiceFunction({ params }: PageProps) {
 
             <div className="flex justify-center w-full p-2 mt-5 lg:mt-14">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-full lg:w-[80%] mt-5 rounded-lg">
-                {data?.industry?.map((data1) => (
-                  <div className="p-6 bg-white rounded-lg transition-all duration-500 hover:shadow-2xl hover:-translate-y-2">
+                {data?.industry?.map((data1, idx) => (
+                  <div
+                    key={idx}
+                    className="p-6 bg-white rounded-lg transition-all duration-500 hover:shadow-2xl hover:-translate-y-2"
+                  >
                     <div className="flex justify-center">
                       <div className="w-16 h-16">
                         <img
