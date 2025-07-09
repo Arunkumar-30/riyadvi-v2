@@ -45,25 +45,25 @@ const allServices = [
     ],
     benifits: [
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
@@ -71,37 +71,37 @@ const allServices = [
     ],
     industry: [
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
@@ -149,25 +149,25 @@ const allServices = [
     ],
     benifits: [
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
@@ -175,37 +175,37 @@ const allServices = [
     ],
     industry: [
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
@@ -253,25 +253,25 @@ const allServices = [
     ],
     benifits: [
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
@@ -279,37 +279,37 @@ const allServices = [
     ],
     industry: [
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
@@ -357,25 +357,25 @@ const allServices = [
     ],
     benifits: [
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
@@ -383,37 +383,37 @@ const allServices = [
     ],
     industry: [
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
@@ -461,25 +461,25 @@ const allServices = [
     ],
     benifits: [
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
@@ -487,37 +487,37 @@ const allServices = [
     ],
     industry: [
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
@@ -565,25 +565,25 @@ const allServices = [
     ],
     benifits: [
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
@@ -591,37 +591,37 @@ const allServices = [
     ],
     industry: [
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "",
+        imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
