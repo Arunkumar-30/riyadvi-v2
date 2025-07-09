@@ -631,21 +631,16 @@ const allServices = [
 ];
 
 interface PageProps {
-  params: Promise<{
-    slug: string;
-  }>;
+  params: { slug: string };
 }
-
-export function generticStaticParams() {
-  return [
-    ...allServices.map((a) => ({
-      slug: a.slug,
-    })),
-  ];
+export function generateStaticParams() {
+  return allServices.map((a) => ({
+    slug: a.slug,
+  }));
 }
 
 export default async function ServiceFunction({ params }: PageProps) {
-  const { slug } = await params; // TypeScript now knows slug is a string
+  const { slug } = params; // TypeScript now knows slug is a string
   const data = allServices.find((s) => s.slug === slug);
 
   const titlePara = data?.titlePara || "";
