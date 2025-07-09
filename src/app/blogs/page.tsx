@@ -12,7 +12,7 @@ const blogPosts = [
     author: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
-      imageUrl: "/avatar1.jpg",
+      imageUrl: "",
     },
     image: "/home/about-1.jpg",
   },
@@ -26,7 +26,7 @@ const blogPosts = [
     author: {
       name: "Lindsay Walton",
       role: "Front-end Developer",
-      imageUrl: "/avatar2.jpg",
+      imageUrl: "",
     },
     image: "/home/about-1.jpg",
   },
