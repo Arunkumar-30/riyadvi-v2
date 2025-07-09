@@ -194,7 +194,7 @@ const MobileMenu: React.FC<Props> = ({
                 Career
               </Link>
               <Link
-                href="/contact"
+                href="/contact-us"
                 className="bg-[#00004f] uppercase text-sm hover:bg-black text-white py-2 px-5 font-semibold block text-center"
                 onClick={handleLinkClick}
               >

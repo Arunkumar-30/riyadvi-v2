@@ -42,7 +42,7 @@ const About = () => {
             <img
               alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
               className="w-full h-full object-cover duration-400 hover:scale-110 transition-transform"
-              src="/home/dev.webp"
+              src="/home/about-1.jpg"
             />
           </div>
         </div>
@@ -54,7 +54,7 @@ const About = () => {
             <img
               alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
               className="w-full h-full object-cover duration-400 hover:scale-110 transition-transform"
-              src="/home/dev.webp"
+              src="/home/about-2.jpg"
             />
           </div>
 

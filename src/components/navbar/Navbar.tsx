@@ -18,12 +18,12 @@ const NavbarComponent = () => {
       href: "#services",
       label: "Services",
       dropdown: [
-        { label: "Web Development", href: "/managed-print-service" },
-        { label: "App Development", href: "/most-valuable-customer" },
-        { label: "Digital Marketing", href: "/av-solutions" },
-        { label: "AR & VR", href: "/av-solutions" },
-        { label: "3D Modelling", href: "/av-solutions" },
-        { label: "Game Development", href: "/av-solutions" },
+        { label: "Web Development", href: "/service/web-development" },
+        { label: "App Development", href: "/service/app-development" },
+        { label: "Digital Marketing", href: "/service/digital-marketing" },
+        { label: "AR & VR", href: "/service/ar-vr" },
+        { label: "3D Modelling", href: "/service/3d-modeling" },
+        { label: "Game Development", href: "/service/game-development" },
       ],
     },
     { href: "/our-works", label: "Our Works" },
@@ -46,7 +46,7 @@ const NavbarComponent = () => {
           </Link>
         </div>
       </div> */}
-      <nav className="bg-white shadow-md z-50 left-0 right-0 py-3">
+      <nav className="bg-white shadow-2xl z-50 left-0 right-0 py-3">
         <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -152,9 +152,9 @@ const NavbarComponent = () => {
                 Career
               </Link>
               <Link
-                href="/contact"
+                href="/contact-us"
                 className={`navbar__link py-5 ${
-                  route === "/contact" ? "active" : ""
+                  route === "/contact-us" ? "active" : ""
                 }`}
               >
                 Contact Us
