@@ -640,7 +640,7 @@ export function generateStaticParams() {
 }
 
 export default async function ServiceFunction({ params }: PageProps) {
-  const { slug } = params; // TypeScript now knows slug is a string
+  const { slug } = await params; // TypeScript now knows slug is a string
   const data = allServices.find((s) => s.slug === slug);
 
   const titlePara = data?.titlePara || "";
