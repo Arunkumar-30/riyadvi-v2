@@ -71,3 +71,22 @@
     left: 100%;
   }
 }
+
+
+.navbar__link {
+  text-align: center;
+  color: var(--om-href-color); /* Assuming this custom property is defined */
+  @apply underline-offset-8  py-2;
+  font-weight: 500;
+}
+
+.navbar__link:hover,
+.navbar__link:active,
+.active {
+  text-decoration: underline;
+  color: #000;
+}
+.swiper-slide {
+  width: auto !important;
+}
+

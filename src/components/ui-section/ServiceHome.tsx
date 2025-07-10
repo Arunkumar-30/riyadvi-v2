@@ -6,7 +6,7 @@ const ServiceHome = () => {
   return (
     <>
       <HeadingComponent
-        heading="Grow your business with expert product development! We offer IT solutions and digital services to help you succeed."
+        heading="What We Do Best"
         description="Discover Our Services"
       />
 
@@ -16,52 +16,32 @@ const ServiceHome = () => {
             {/* Example Card — repeat for each service */}
             {[
               {
-                title: "DevOps",
-                description: "Quickly Gain DevOps Experience",
-                href: "/devops-services-chennai",
-                imgSrc: "/dev-service.webp",
+                title: "Web Development",
+                description:
+                  " Fast, responsive websites that convert visitors into customers.",
+                href: "/service/web-development",
+                imgSrc: "/home/web-develop.jpg",
               },
               {
-                title: "Robotic Process Automation",
-                description: "Smart Automation Changes Business",
-                href: "/rpa-services-india",
-                imgSrc: "/dev-service.webp",
+                title: "Mobile App Development",
+                description:
+                  "Powerful mobile apps tailored for iOS & Android users. ",
+                href: "/service/app-development",
+                imgSrc: "/home/app-develop.jpg",
               },
               {
-                title: "VR & AR",
-                description: "Build Powerful Virtual Experience",
-                href: "/vr-ar-services-india",
-                imgSrc: "/dev-service.webp",
+                title: "Digital Marketing",
+                description:
+                  "Meta Ads, Google Ads, SEO — everything you need to grow online.",
+                href: "/service/digital-marketing",
+                imgSrc: "/home/digital-marketing.jpg",
               },
               {
-                title: "Blockchain Development",
-                description: "Secure Transactions on Blockchain",
-                href: "/blockchain-development-india",
-                imgSrc: "/dev-service.webp",
-              },
-              {
-                title: "Data and Analytics",
-                description: "Planned, Informative, and Perceptive",
-                href: "/data-analytics-services-chennai",
-                imgSrc: "/dev-service.webp",
-              },
-              {
-                title: "Cloud Services",
-                description: "Simple, safe, and quick cloud transfer",
-                href: "/cloud-services-in-india",
-                imgSrc: "/dev-service.webp",
-              },
-              {
-                title: "CRM & ERP",
-                description: "Smart automation changes business",
-                href: "/crm-and-erp-software-development-services",
-                imgSrc: "/dev-service.webp",
-              },
-              {
-                title: "E-Commerce",
-                description: "Increase your online visibility",
-                href: "/e-commerce-solutions-india",
-                imgSrc: "/dev-service.webp",
+                title: "3D Modeling & Design",
+                description:
+                  "Visualize your ideas with stunning 3D representations.",
+                href: "/service/3d-modeling",
+                imgSrc: "/home/web-develop.jpg",
               },
             ].map((item, idx) => (
               <div
@@ -72,7 +52,7 @@ const ServiceHome = () => {
                   <div className="w-full h-full border">
                     <img
                       alt={item.title}
-                      className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:blur-sm"
+                      className="w-full h-[400px] object-cover transition-all duration-700 group-hover:scale-110 group-hover:blur-sm"
                       src={item.imgSrc}
                     />
                   </div>
@@ -87,6 +67,14 @@ const ServiceHome = () => {
                 </a>
               </div>
             ))}
+          </div>
+          <div className="flex justify-center items-center mt-10">
+            <button
+              type="button"
+              className="py-2.5 px-5 me-2 mb-2 text-[18px] font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-950 hover:bg-[#D4AF37] hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-black dark:hover:text-white dark:hover:bg-gray-700"
+            >
+              Explore Services
+            </button>
           </div>
         </div>
       </div>

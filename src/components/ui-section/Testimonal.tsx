@@ -32,18 +32,17 @@ export default function Testimonials() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="bg-[#005F9C0D] py-16 my-20">
+    <div className="bg-gray-50 py-16">
       <div className="w-[90%] mx-auto flex justify-around items-center max-md:flex-col max-md:gap-8">
         {/* Left Text */}
         <div className="w-full md:w-[40%]">
-          <h2 className="text-[#003368] text-[44px] max-md:text-[28px] font-semibold md:leading-[3.5rem]">
-            What Our <br />
-            <span className="text-[#0095D2]">Customers</span> Says
+          <h2 className="text-[12px] font-bold uppercase text-[#D4AF37] inline-flex items-center p-2">
+            Testimonials
           </h2>
-          <p className="text-[14px] md:text-[18px] text-[#484A61] mt-2 md:mt-6">
-            Testimonials are not just recognitions, but they are the results for
-            the work we do.
-          </p>
+
+          <h3 className="text-black text-[44px] max-md:text-[28px] font-semibold mt-2 md:leading-12">
+            What Our <span className="text-[#D4AF37]">Clients</span> Say
+          </h3>
         </div>
 
         {/* Swiper Slider */}
@@ -72,10 +71,10 @@ export default function Testimonials() {
                     className="flex justify-center items-center"
                   >
                     <div
-                      className={`w-[350px] p-5 flex transition-all duration-300 ease-in-out bg-white text-[#484A61] border border-[#DEDEDE] ${
+                      className={`w-[350px] p-5 flex transition-all duration-300 ease-in-out bg-white text-[#484A61] border ${
                         isActive
-                          ? "ml-0 opacity-100 border-l-[20px] border-[#0095D2]"
-                          : "ml-[100px] opacity-50 border-l-[20px] border-[#CAEFFF]"
+                          ? "ml-0 opacity-100 border-l-[20px] border-yellow-900"
+                          : "ml-[100px] opacity-50 border-l-[20px] border-gray-300"
                       }`}
                     >
                       <div className="flex flex-col gap-2">
@@ -84,7 +83,7 @@ export default function Testimonials() {
                         </span>
                         <p className="text-[16px]">{item.feedback}</p>
                       </div>
-                      <div className="text-[#0095D2] w-[32px] ml-auto">
+                      <div className="text-yellow-900 w-[32px] ml-auto">
                         <FaQuoteRight size={32} />
                       </div>
                     </div>

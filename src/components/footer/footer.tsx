@@ -15,15 +15,16 @@ const FooterComponent = () => {
           <div className="flex flex-col items-center text-center">
             <div className="w-[90%] sm:w-[60%]">
               <p className="text-xl sm:text-2xl lg:text-4xl xl:text-5xl font-semibold text-white">
-                Ready to Grow Your Business? <br /> Get Started with Aryu Today!
+                Ready to Grow Your Business? <br /> Get Started with Riyadvi
+                Today!
               </p>
               <div className="flex flex-col md:flex-row justify-center gap-4 w-full mt-10">
-                <Link
-                  href="/contact-us"
-                  className="bg-white text-[#004CAB] px-6 py-2 rounded-lg w-full sm:w-auto hover:bg-black/30 hover:text-white transition-all duration-500 text-[18px]"
+                <button
+                  type="button"
+                  className="py-2.5 px-5 me-2 mb-2 text-[18px] font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-950 hover:bg-[#D4AF37] hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-black dark:hover:text-white dark:hover:bg-gray-700"
                 >
-                  Contact Us
-                </Link>
+                  Book a Free Discovery Call
+                </button>
               </div>
             </div>
           </div>

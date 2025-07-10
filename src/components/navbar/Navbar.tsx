@@ -110,11 +110,16 @@ const NavbarComponent = () => {
                 <div key={index} className="group relative h-full">
                   <Link
                     href={navItem.href}
-                    className={`navbar__link py-2 border-b-2 border-b-transparent hover:border-b-black transition duration-300 ${
+                    className={`navbar__link py-2 border-b-2 border-b-transparent transition duration-300 ${
                       route === navItem.href ||
-                      (navItem.href === "#services" &&
-                        (route.includes("managed") || route.includes("av")))
-                        ? "active border-b-blue-500"
+                      (navItem.href === "#service" &&
+                        (route.includes("web-development") ||
+                          route.includes("app-development") ||
+                          route.includes("digital-marketing") ||
+                          route.includes("ar-vr") ||
+                          route.includes("3d-modeling") ||
+                          route.includes("game-development")))
+                        ? "active"
                         : ""
                     }`}
                   >

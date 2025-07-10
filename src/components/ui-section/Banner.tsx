@@ -8,16 +8,33 @@ const BannerSlider = () => {
       <div className="relative w-full overflow-hidden">
         <div className="flex items-center justify-start transition-transform duration-700 ease-in-out bg-[url('/home/main.jpg')] bg-cover bg-center h-[500px] w-full px-6 sm:px-12">
           {/* Left-side content */}
-          <div className="text-white max-w-md space-y-4">
+          <div className="text-white max-w-3xl space-y-6">
             <h1 className="text-3xl sm:text-5xl font-bold">
-              Your Bold Headline
+              Build, Grow & Transform Your Business with Digital Solutions That
+              Work
             </h1>
             <p className="text-sm sm:text-lg">
-              This is a short paragraph describing the hero section. It&apos;s
-              clean, responsive, and layered over the background image.
+              From custom websites to high-converting ad campaigns — we help
+              startups and businesses go digital the smart way.
             </p>
-            <button className="mt-4 px-6 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-white transition">
-              Learn More
+            <button
+              className="group duration-500 text-[#fff] p-2 hover:bg-[#D4AF37]  w-[230px] flex items-center gap-4  text-[14px] border-none"
+              data-discover="true"
+            >
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth="0"
+                viewBox="0 0 24 24"
+                className="text-[#fff] md:p-1 w-[18px] h-[18px] md:w-[32px] md:h-[32px] group-hover:bg-[#5891E010] bg-[#D4AF37] transition-transform duration-300 group-hover:rotate-43 group-hover:translate-x-0.5"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
+              </svg>
+              Book Free Consultation
             </button>
           </div>
         </div>
