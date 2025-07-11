@@ -20,10 +20,23 @@ const FooterComponent = () => {
               </p>
               <div className="flex flex-col md:flex-row justify-center gap-4 w-full mt-10">
                 <button
-                  type="button"
-                  className="py-2.5 px-5 me-2 mb-2 text-[18px] font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-950 hover:bg-[#D4AF37] hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-black dark:hover:text-white dark:hover:bg-gray-700"
+                  className="group duration-500 text-[#fff] p-2 bg-[#D4AF37]  w-[230px] flex items-center gap-4  text-[14px] border-none"
+                  data-discover="true"
                 >
-                  Book a Free Discovery Call
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    strokeWidth="0"
+                    viewBox="0 0 24 24"
+                    className="text-[#fff] md:p-1 w-[18px] h-[18px] md:w-[32px] md:h-[32px] group-hover:bg-[#5891E010] bg-[#D4AF37] transition-transform duration-300 group-hover:rotate-43 group-hover:translate-x-0.5"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
+                  </svg>
+                  Book Free Consultation
                 </button>
               </div>
             </div>

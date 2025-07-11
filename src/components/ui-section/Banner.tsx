@@ -18,7 +18,7 @@ const BannerSlider = () => {
               startups and businesses go digital the smart way.
             </p>
             <button
-              className="group duration-500 text-[#fff] p-2 hover:bg-[#D4AF37]  w-[230px] flex items-center gap-4  text-[14px] border-none"
+              className="group duration-500 text-[#fff] p-2 bg-[#D4AF37]  w-[230px] flex items-center gap-4  text-[14px] border-none"
               data-discover="true"
             >
               <svg

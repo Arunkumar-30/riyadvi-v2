@@ -6,8 +6,8 @@ const ServiceHome = () => {
   return (
     <>
       <HeadingComponent
-        heading="What We Do Best"
-        description="Discover Our Services"
+        heading="Discover Our Services"
+        description="What We Do Best"
       />
 
       <div className="flex justify-center mt-10">
