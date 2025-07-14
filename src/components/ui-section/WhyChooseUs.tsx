@@ -117,7 +117,7 @@
 const WhyChooseUs = () => {
   return (
     <>
-      <section className="bg-white py-16 px-6 md:px-12 lg:px-24 mt-20">
+      <section className="bg-white py-16 px-6 md:px-12 lg:px-24 mt-10">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start justify-between gap-10">
           {/* Left Section */}
           <div className=" space-y-6">
@@ -128,13 +128,13 @@ const WhyChooseUs = () => {
               We’re not just service providers.<br></br> We’re your tech
               partners.
             </h2>
-            <p className="text-gray-600 mt-4 max-w-md">
+            <p className="text-[#585858] text-md xl:text-lg  font-[500] mt-4 max-w-md">
               At Riyadvi Software Technologies, we ensure predictable, scalable,
               and sustainable growth for your business—making the journey as
               rewarding as the destination.
             </p>
             <button
-              className="group duration-500 text-[#fff] p-2 bg-[#D4AF37]  w-auto pr-8 flex items-center gap-4  text-[14px] border-none"
+              className="group duration-500 rounded-full text-[#fff] p-2 bg-[#D4AF37]  w-auto pr-8 flex items-center gap-4  text-[14px] border-none"
               data-discover="true"
             >
               <svg
@@ -150,7 +150,7 @@ const WhyChooseUs = () => {
                 <path fill="none" d="M0 0h24v24H0z"></path>
                 <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
               </svg>
-              Contact Us
+              Know More
             </button>
           </div>
 
@@ -189,10 +189,12 @@ const WhyChooseUs = () => {
                     alt={item.title}
                     className="w-20 h-20 mb-3"
                   />
-                  <h4 className="font-semibold text-lg text-gray-800">
+                  <h4 className="text-lg lg:text-xl xl:text-2xl font-[500] pb-2">
                     {item.title}
                   </h4>
-                  <p className="text-gray-600 text-sm mt-1">{item.desc}</p>
+                  <p className="text-[#585858] text-md xl:text-lg mt-1 font-[400]">
+                    {item.desc}
+                  </p>
                 </div>
               ))}
             </div>

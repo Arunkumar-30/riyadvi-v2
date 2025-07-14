@@ -4,19 +4,19 @@ import HeadingComponent from "./Heading";
 
 const TrustedPartner = () => {
   return (
-    <div className="max-w-7xl mx-auto my-10">
+    <div className="max-w-7xl mx-auto my-10 mt-10">
       <HeadingComponent
-        heading="Our Clients include
+        heading="Adored by Countless Satisfied Clients
 "
-        description=""
+        description="Discover the wonderful experiences and accomplishments our clients have shared with us!"
       />
       <div className="max-w-7xl mx-auto lg:py-20 py-10">
         <div
           className="slider max-w-7xl"
           style={
             {
-              "--width": "100px",
-              "--height": "50px",
+              "--width": "130px",
+              "--height": "70px",
               "--quantity": "7",
             } as React.CSSProperties
           }

@@ -90,3 +90,11 @@
   width: auto !important;
 }
 
+.banner-image{
+  background-image:url('/home/home_banner_new_bg.png'),linear-gradient(to right, rgba(0,0,0), rgb(12,12,12));
+  background-color: rgb(44, 44, 44);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+      
+}

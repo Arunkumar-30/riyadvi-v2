@@ -2,8 +2,11 @@ import BannerSlider from "@/components/ui-section/Banner";
 import CaseStudies from "@/components/ui-section/CaseStudies";
 import ContactComponent from "@/components/ui-section/ContactSection";
 
+import FaqAccordion from "@/components/ui-section/FaqSection";
+import TestimonialSlider from "@/components/ui-section/NewTestimonal";
+
 import ServiceComponent from "@/components/ui-section/ServiceSection";
-import TestimonialSlider from "@/components/ui-section/Testimonal";
+import Testimonials from "@/components/ui-section/Testimonal";
 
 import TrustedPartner from "@/components/ui-section/TrustedPartners";
 import WhyChooseUs from "@/components/ui-section/WhyChooseUs";
@@ -14,16 +17,19 @@ export default function Home() {
       <div>
         <BannerSlider></BannerSlider>
       </div>
+      <WhyChooseUs />
 
-      <TrustedPartner />
       <ServiceComponent />
       {/* <ServiceHome /> */}
       {/* <AboutComponent /> */}
       {/* <WhyChooseUsComponent /> */}
-      <WhyChooseUs />
+      <TrustedPartner />
       <ContactComponent />
+
       <CaseStudies />
       <TestimonialSlider />
+      <Testimonials />
+      <FaqAccordion />
     </div>
   );
 }

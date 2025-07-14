@@ -7,20 +7,20 @@ const FooterComponent = () => {
     <>
       <div>
         <div
-          className="bg-[#fff] bg-cover bg-center bg-no-repeat text-white py-16 px-6"
-          style={{
-            backgroundImage: `url('/home/banner-2.jpg')`,
-          }}
+          className="bg-[#fff] bg-cover bg-center bg-no-repeat text-white py-16 px-6 banner-image"
+          // style={{
+          //   backgroundImage: `url('/home/banner-2.jpg')`,
+          // }}
         >
           <div className="flex flex-col items-center text-center">
             <div className="w-[90%] sm:w-[60%]">
-              <p className="text-xl sm:text-2xl lg:text-4xl xl:text-5xl font-semibold text-white">
-                Ready to Grow Your Business? <br /> Get Started with Riyadvi
-                Today!
+              <p className="text-xl sm:text-xl lg:text-3xl xl:text-4xl font-semibold text-white">
+                Ready to take your business to the next level? <br /> Get
+                Started with Riyadvi Today!
               </p>
               <div className="flex flex-col md:flex-row justify-center gap-4 w-full mt-10">
                 <button
-                  className="group duration-500 text-[#fff] p-2 bg-[#D4AF37]  w-[230px] flex items-center gap-4  text-[14px] border-none"
+                  className="group rounded-full duration-500 text-[#fff] p-2 bg-[#D4AF37]  w-[230px] flex items-center gap-4  text-[14px] border-none"
                   data-discover="true"
                 >
                   <svg
@@ -204,8 +204,10 @@ const FooterComponent = () => {
         <div className="w-[85%] mx-auto mt-8 border-t-[0.4px] border-[#2929292a]s"></div>
         <div className="socilaMedia">
           <div className="CopyRights text-[14px] text-[#292929] text-center">
-            <p className="m-4">© 2025 Riyadvi Software Technologies PVT. LTD</p>
-            <p className="mt-4">All rights reserved</p>
+            <p className="m-4">
+              All Rights Reserved © 2025 Riyadvi Software Technologies Private
+              Limited
+            </p>
           </div>
         </div>
       </div>

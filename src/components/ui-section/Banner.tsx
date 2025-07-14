@@ -4,9 +4,9 @@ import React from "react";
 
 const BannerSlider = () => {
   return (
-    <div className="relative">
+    <div className="relative banner-image">
       <div className="relative w-full overflow-hidden">
-        <div className="flex items-center justify-start transition-transform duration-700 ease-in-out bg-[url('/home/main.jpg')] bg-cover bg-center h-[500px] w-full px-6 sm:px-12">
+        <div className="flex items-center justify-start transition-transform duration-700 ease-in-out  h-[500px] w-full px-6 sm:px-12">
           {/* Left-side content */}
           <div className="text-white max-w-3xl space-y-6">
             <h1 className="text-3xl sm:text-5xl font-bold">
@@ -18,7 +18,7 @@ const BannerSlider = () => {
               startups and businesses go digital the smart way.
             </p>
             <button
-              className="group duration-500 text-[#fff] p-2 bg-[#D4AF37]  w-[230px] flex items-center gap-4  text-[14px] border-none"
+              className="group rounded-full duration-500 text-[#fff] p-2 bg-[#D4AF37]  w-[230px] flex items-center gap-4  text-[14px] border-none"
               data-discover="true"
             >
               <svg

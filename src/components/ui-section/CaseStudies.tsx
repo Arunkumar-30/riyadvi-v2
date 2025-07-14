@@ -125,7 +125,7 @@ import CountUp from "react-countup";
 const CaseStudies = () => {
   return (
     <>
-      <div className="mt-20">
+      <div className="mt-20 ">
         <HeadingComponent
           heading=" Discover How We Solve Challenges."
           description="Case Studies"
@@ -145,7 +145,7 @@ const CaseStudies = () => {
                     +
                   </div>
                 </div>
-                <p className="text-lg font-[400] mt-14">
+                <p className="text-[#585858] text-md xl:text-lg  font-[500] mt-14">
                   Redesigned and optimized the shopping experience leading to a{" "}
                   <span className="text-[#D4AF37] font-medium">
                     +300% conversion
@@ -165,7 +165,7 @@ const CaseStudies = () => {
                     +
                   </div>
                 </div>
-                <p className="text-lg font-[400] mt-14">
+                <p className="text-[#585858] text-md xl:text-lg  font-[500] mt-14">
                   {" "}
                   Google LSA campaign brought in over{" "}
                   <span className="text-[#D4AF37] font-medium">
@@ -186,7 +186,7 @@ const CaseStudies = () => {
                     +
                   </div>
                 </div>
-                <p className="text-lg font-[400] mt-14">
+                <p className="text-[#585858] text-md xl:text-lg  font-[500] mt-14">
                   {" "}
                   Created immersive 3D architectural models presented at an
                   international real estate expo.
@@ -204,7 +204,7 @@ const CaseStudies = () => {
                     +
                   </div>
                 </div>
-                <p className="text-lg font-[400] mt-14">
+                <p className="text-[#585858] text-md xl:text-lg  font-[500] mt-14">
                   {" "}
                   Redesigned and optimized the shopping experience leading to a{" "}
                   <span className="text-[#D4AF37] font-medium">
@@ -216,7 +216,7 @@ const CaseStudies = () => {
             </div>
             <div className="flex justify-center items-center mt-10">
               <button
-                className="group duration-500 text-[#fff] p-2 bg-[#D4AF37]  w-[170px] flex items-center gap-4  text-[14px] border-none"
+                className="group duration-500 rounded-full text-[#fff] p-2 bg-[#D4AF37]  w-[170px] flex items-center gap-4  text-[14px] border-none"
                 data-discover="true"
               >
                 <svg

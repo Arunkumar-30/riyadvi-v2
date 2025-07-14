@@ -18,12 +18,41 @@ const NavbarComponent = () => {
       href: "#services",
       label: "Services",
       dropdown: [
-        { label: "Web Development", href: "/service/web-development" },
-        { label: "App Development", href: "/service/app-development" },
-        { label: "Digital Marketing", href: "/service/digital-marketing" },
-        { label: "AR & VR", href: "/service/ar-vr" },
-        { label: "3D Modelling", href: "/service/3d-modeling" },
-        { label: "Game Development", href: "/service/game-development" },
+        {
+          label: "Web Development",
+          href: "/service/web-development",
+          icon: "./navbar-logos/app-development.png",
+        },
+        {
+          label: "App Development",
+          href: "/service/app-development",
+          icon: "./navbar-logos/mobile-development.png",
+        },
+        {
+          label: "Digital Marketing",
+          href: "/service/digital-marketing",
+          icon: "./navbar-logos/digital-marketing.png",
+        },
+        {
+          label: "AR & VR",
+          href: "/service/ar-vr",
+          icon: "./navbar-logos/virtual-tour.png",
+        },
+        {
+          label: "3D Modelling",
+          href: "/service/3d-modeling",
+          icon: "./navbar-logos/3d-model.png",
+        },
+        {
+          label: "Game Development",
+          href: "/service/game-development",
+          icon: "./navbar-logos/game-development.png",
+        },
+        {
+          label: "UI/UX Design",
+          href: "/service/ui-ux-design",
+          icon: "./navbar-logos/design.png",
+        },
       ],
     },
     { href: "/our-works", label: "Works" },
@@ -124,7 +153,7 @@ const NavbarComponent = () => {
                   </Link>
 
                   {navItem.dropdown && (
-                    <div className="absolute -left-96 top-full mt-7 bg-white shadow-2xl border scale-y-0 origin-top group-hover:scale-y-100 transition-transform z-50 w-max px-10 py-5">
+                    <div className="absolute -left-[500px] top-full mt-7 bg-white shadow-2xl border scale-y-0 origin-top group-hover:scale-y-100 transition-transform z-50 w-max px-10 py-2">
                       <div className="flex flex-col lg:flex-row gap-10 w-full items-start bg-white p-6 rounded-md">
                         {/* Left Side: Services Info and Image */}
                         <div className="w-full lg:w-1/3">
@@ -145,16 +174,23 @@ const NavbarComponent = () => {
                         </div>
 
                         {/* Right Side: Dropdown List */}
-                        <div className="w-full lg:w-2/3 mt-4 lg:mt-0 shadow-md rounded-md p-4">
+                        <div className="w-full lg:w-2/3 mt-4 lg:mt-0 p-4">
                           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             {navItem.dropdown.map((dropdownItem, idx) => (
                               <li key={idx}>
+                                {/* Link with Icon */}
                                 <Link
                                   href={dropdownItem.href}
                                   className="flex items-center text-gray-700 hover:text-[#00008f] hover:bg-slate-100 py-2 px-4 rounded-md transition"
                                 >
                                   {/* Icon on the left */}
-                                  <ChevronRight className="w-4 h-4 mr-2 text-[#00008f]" />
+                                  <img
+                                    src={dropdownItem.icon}
+                                    width={50}
+                                    height={50}
+                                    alt={`${dropdownItem.label} Icon`}
+                                    className="mr-2"
+                                  />
                                   {dropdownItem.label}
                                 </Link>
                               </li>
@@ -169,14 +205,14 @@ const NavbarComponent = () => {
             </div>
 
             {/* Extra Links */}
-            <div className="hidden text-lg font-semibold flex-1 lg:flex space-x-5 justify-end">
+            <div className="hidden text-lg font-semibold  lg:flex space-x-5 justify-end">
               <Link
                 href="/contact-us"
-                className={`px-6 py-2 rounded-sm border border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white transition duration-300 ${
+                className={`px-6 py-2 rounded-full border border-[#D4AF37] bg-[#D4AF37] text-white hover:bg-[#D4AF37] hover:text-white transition duration-300 ${
                   route === "/contact-us" ? "bg-[#D4AF37] text-white" : ""
                 }`}
               >
-                Contact Us
+                Get a Quote
               </Link>
             </div>
           </div>

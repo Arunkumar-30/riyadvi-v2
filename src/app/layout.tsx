@@ -6,6 +6,8 @@ import NavbarComponent from "@/components/navbar/Navbar";
 import "swiper/css";
 import "swiper/css/pagination";
 import FooterComponent from "@/components/footer/footer";
+import ScrollToTop from "@/components/ui-section/ScrollToTop";
+import ScrollAndContactButtons from "@/components/ui-section/ScrollToTop";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -22,7 +24,9 @@ export default function RootLayout({
       <body className={`antialiased`}>
         <NavbarComponent />
         {children}
+
         <FooterComponent />
+        <ScrollAndContactButtons />
       </body>
     </html>
   );
