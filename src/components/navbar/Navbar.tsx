@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import MobileMenu from "./MobileNav";
-import { ChevronRight } from "lucide-react";
+
 const NavbarComponent = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const route = usePathname();

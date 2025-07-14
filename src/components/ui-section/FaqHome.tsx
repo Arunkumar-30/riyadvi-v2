@@ -38,7 +38,7 @@ export default function FaqComponent() {
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8">
       <h2 className="text-center text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-        Frequently Asked <span className="text-blue-500">Question's</span>
+        Frequently Asked <span className="text-blue-500">Questions</span>
       </h2>
 
       <div className="max-w-3xl mx-auto space-y-4">
