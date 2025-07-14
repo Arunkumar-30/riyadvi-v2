@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import MobileMenu from "./MobileNav";
-
+import { ChevronRight } from "lucide-react";
 const NavbarComponent = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const route = usePathname();
@@ -103,11 +103,10 @@ const NavbarComponent = () => {
                 )}
               </button>
             </div>
-
             {/* Desktop Menu */}
-            <div className="hidden lg:flex text-lg font-semibold flex-1 ps-5 ms-5 space-x-5">
+            <div className="hidden lg:flex text-lg font-semibold flex-1 ps-5 ms-5 space-x-5 relative">
               {navLink.map((navItem, index) => (
-                <div key={index} className="group relative h-full">
+                <div key={index} className="group relative">
                   <Link
                     href={navItem.href}
                     className={`navbar__link py-2 border-b-2 border-b-transparent transition duration-300 ${
@@ -127,19 +126,44 @@ const NavbarComponent = () => {
                   </Link>
 
                   {navItem.dropdown && (
-                    <div className="absolute z-50 left-1/2 transform p-3 -translate-x-1/2 mt-5 border shadow-2xl bg-white w-60 scale-y-0 origin-top group-hover:scale-y-100 transition-transform flex">
-                      <ul className="space-y-1 px-5 ">
-                        {navItem.dropdown.map((dropdownItem, idx) => (
-                          <li key={idx}>
-                            <Link
-                              href={dropdownItem.href}
-                              className="block text-gray-600 hover:text-[#00008f] hover:bg-slate-300 py-1 pl-1 pr- rounded-md"
-                            >
-                              {dropdownItem.label}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
+                    <div className="absolute -left-80 top-full mt-7 bg-white shadow-2xl border scale-y-0 origin-top group-hover:scale-y-100 transition-transform z-50 w-max px-10 py-5">
+                      <div className="flex flex-col lg:flex-row gap-10 w-full items-start bg-white p-6 rounded-md">
+                        {/* Left Side: Services Info and Image */}
+                        <div className="w-full lg:w-1/3">
+                          <h3 className="text-lg font-semibold mb-2">
+                            Services
+                          </h3>
+                          <p className="text-sm text-gray-500 mb-4">
+                            Discover our range of services designed to drive
+                            business transformation.
+                          </p>
+                          <Image
+                            src="/home/service-navbar.jpg"
+                            width={300}
+                            height={200}
+                            alt="Services Image"
+                            className="rounded-md"
+                          />
+                        </div>
+
+                        {/* Right Side: Dropdown List */}
+                        <div className="w-full lg:w-2/3 mt-4 lg:mt-0 shadow-md rounded-md p-4">
+                          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            {navItem.dropdown.map((dropdownItem, idx) => (
+                              <li key={idx}>
+                                <Link
+                                  href={dropdownItem.href}
+                                  className="flex items-center text-gray-700 hover:text-[#00008f] hover:bg-slate-100 py-2 px-4 rounded-md transition"
+                                >
+                                  {/* Icon on the left */}
+                                  <ChevronRight className="w-4 h-4 mr-2 text-[#00008f]" />
+                                  {dropdownItem.label}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                   )}
                 </div>
