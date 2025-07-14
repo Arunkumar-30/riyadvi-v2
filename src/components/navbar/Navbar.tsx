@@ -26,9 +26,10 @@ const NavbarComponent = () => {
         { label: "Game Development", href: "/service/game-development" },
       ],
     },
-    { href: "/our-works", label: "Our Works" },
+    { href: "/our-works", label: "Works" },
     { href: "/blogs", label: "Blogs" },
     { href: "/portfolio", label: "Portfolio" },
+    { href: "/career", label: "Career" },
   ];
 
   return (
@@ -49,7 +50,7 @@ const NavbarComponent = () => {
       <nav className="bg-white shadow-2xl z-50 left-0 right-0 py-3">
         <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <div className="flex items-center">
+            <div className="flex-1 items-center">
               <Link href="/" className="flex">
                 <Image
                   src="/logo/riyadvilogo.png"
@@ -104,7 +105,7 @@ const NavbarComponent = () => {
               </button>
             </div>
             {/* Desktop Menu */}
-            <div className="hidden lg:flex text-lg font-semibold flex-1 ps-5 ms-5 space-x-5 relative">
+            <div className="hidden lg:flex  text-base font-semibold flex-1 ps-5 ms-5 space-x-5 relative">
               {navLink.map((navItem, index) => (
                 <div key={index} className="group relative">
                   <Link
@@ -126,7 +127,7 @@ const NavbarComponent = () => {
                   </Link>
 
                   {navItem.dropdown && (
-                    <div className="absolute -left-80 top-full mt-7 bg-white shadow-2xl border scale-y-0 origin-top group-hover:scale-y-100 transition-transform z-50 w-max px-10 py-5">
+                    <div className="absolute -left-96 top-full mt-7 bg-white shadow-2xl border scale-y-0 origin-top group-hover:scale-y-100 transition-transform z-50 w-max px-10 py-5">
                       <div className="flex flex-col lg:flex-row gap-10 w-full items-start bg-white p-6 rounded-md">
                         {/* Left Side: Services Info and Image */}
                         <div className="w-full lg:w-1/3">
@@ -173,17 +174,9 @@ const NavbarComponent = () => {
             {/* Extra Links */}
             <div className="hidden text-lg font-semibold flex-1 lg:flex space-x-5 justify-end">
               <Link
-                href="/career"
-                className={`navbar__link py-5 ${
-                  route === "/career" ? "active" : ""
-                }`}
-              >
-                Career
-              </Link>
-              <Link
                 href="/contact-us"
-                className={`navbar__link py-5 ${
-                  route === "/contact-us" ? "active" : ""
+                className={`px-6 py-2 rounded-sm border border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white transition duration-300 ${
+                  route === "/contact-us" ? "bg-[#D4AF37] text-white" : ""
                 }`}
               >
                 Contact Us
