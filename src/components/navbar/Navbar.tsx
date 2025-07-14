@@ -53,16 +53,13 @@ const NavbarComponent = () => {
             <div className="flex-1 items-center">
               <Link href="/" className="flex">
                 <Image
-                  src="/logo/riyadvilogo.png"
+                  src="/logo/riyadvi logo final for website (2) (1).png"
                   width={100}
                   height={100}
-                  className="w-20"
+                  className="w-80 h-16 object-cover
+                  "
                   alt="Brand Logo"
                 />
-                <a href="" className="mt-5 text-sm font-semibold">
-                  {" "}
-                  Riyadvi Software <br /> Technologies PVT LID
-                </a>
               </Link>
             </div>
 
