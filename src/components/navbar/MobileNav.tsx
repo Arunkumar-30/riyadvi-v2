@@ -48,7 +48,7 @@ const MobileMenu: React.FC<Props> = ({
             <div className="flex items-center">
               <Link href="/">
                 <Image
-                  src="/hom/logo.svg"
+                  src="/logo/riyadvi logo final for website (2) (1).png"
                   width={200}
                   height={30}
                   alt="Brand Logo"
