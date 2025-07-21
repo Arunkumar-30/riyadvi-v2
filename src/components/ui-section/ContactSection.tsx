@@ -29,7 +29,7 @@ export default function ContactComponent() {
               Looking for expert product development and IT solutions? We create
               smart, scalable digital solutions to help businesses grow. From
               AI-driven automation to seamless web development, we’ve got you
-              covered. Contact us today and let’s drive your success forward!
+              covered. Contact us today and letss drive your success forward!
             </p>
           </div>
 
