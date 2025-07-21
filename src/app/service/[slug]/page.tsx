@@ -654,10 +654,7 @@ export default async function ServiceComponent({ params }: PageProps) {
   return (
     <>
       <div>
-        <CommonBannerComponent
-          title={data?.title || ""}
-          banner="/home/banner-2.jpg"
-        />
+        <CommonBannerComponent title={data?.title || ""} />
         <section id="Overview" className="mt-10 lg:mt-20">
           <div className="flex justify-center mt-28 lg:mt-20 px-4">
             <div className="w-full max-w-7xl h-fit flex flex-col lg:flex-row gap-10 p-4 lg:p-10">
