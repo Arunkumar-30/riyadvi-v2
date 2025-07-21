@@ -98,3 +98,54 @@
     background-position: right center;
       
 }
+
+.line-animation::before {
+  content: "";
+  width: 10px;
+  height: 100px;
+  background: red url(../../public/home/line.jpeg) no-repeat fixed;
+  position: absolute;
+  display: inline-block;
+  top: -300px;
+  right: calc(100% - 17%);
+  z-index: 9;
+  animation: drop 1.5s ease forwards;
+  animation-iteration-count: 1;
+}
+
+/* Drop animation */
+@keyframes drop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 450px; /* Adjust this to the final vertical position you want */
+    opacity: 1;
+  }
+}
+.line-animation-1::before {
+  content: "";
+  width: 10px;
+  height: 100px;
+  background: gold url(../../public/home/line.jpeg) no-repeat fixed;
+  position: absolute;
+  display: inline-block;
+  top: 500px;
+  right: calc(100% - 17%);
+  z-index: 9;
+  animation: drop 1.5s ease forwards;
+  animation-iteration-count: 1;
+}
+
+/* Drop animation */
+@keyframes drop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 450px; /* Adjust this to the final vertical position you want */
+    opacity: 1;
+  }
+}

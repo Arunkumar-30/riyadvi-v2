@@ -1,10 +1,11 @@
 "use client";
 
+import Image from "next/image";
 import React from "react";
 
 const BannerSlider = () => {
   return (
-    <div className="relative banner-image">
+    <div className="relative banner-image line-animation">
       <div className="relative w-full overflow-hidden">
         <div className="flex items-center justify-start transition-transform duration-700 ease-in-out  h-[500px] w-full px-6 sm:px-12">
           {/* Left-side content */}
@@ -36,6 +37,16 @@ const BannerSlider = () => {
               </svg>
               Book Free Consultation
             </button>
+          </div>
+          {/* Left-side content */}
+          <div className="text-white max-w-3xl space-y-6">
+            <Image
+              src="/home/lap.png"
+              width={600}
+              height={600}
+              alt="lap-home"
+              className="object-cover"
+            />
           </div>
         </div>
       </div>

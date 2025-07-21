@@ -3,8 +3,8 @@
 const AboutComponent = () => {
   return (
     <>
-      <div className="my-10 lg:ml-20">
-        <div className="about-riyadvi-group flex w-[80%] justify-between md:py-16 mx-auto max-lg:w-[80%] max-lg:flex-col max-lg:gap-10">
+      <div className="my-10 lg:ml-20 ">
+        <div className="about-riyadvi-group flex w-[80%] justify-between md:py-16 mx-auto max-lg:w-[80%] max-lg:flex-col max-lg:gap-10 line-animation">
           <div className="content lg:w-[60%] flex flex-col justify-between">
             <div>
               <h2 className="text-[12px] font-bold uppercase text-[#D4AF37] inline-flex items-center p-2">
